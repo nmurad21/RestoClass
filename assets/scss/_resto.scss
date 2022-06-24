@@ -1,0 +1,28 @@
+#welcome{
+    display: flex;
+    margin-top: 5rem;
+    .resto{
+        align-items: center;
+        padding: 15px;
+        span{
+            color: red;
+        }
+        a{
+            text-decoration: none;
+            h6{
+                font-size: 16px;
+                color: red;
+    
+            }
+        }
+        .australian-recipe{
+            display: flex;
+            .australian{
+                img{
+                    width: 9rem;
+                    height: 9rem;
+                }
+            }
+        }
+    }
+}
